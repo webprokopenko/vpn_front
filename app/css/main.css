@@ -3,16 +3,17 @@ html{
 	height: 100%;
 }
 body{
-	/*background: url() repeat;*/
+	background: url('../img/bg5.png') repeat;
 	width: 100%;
 	height: 100%;
+	font-size: 1em;
 }
 
-/* прибьём футер к низу  -- Ваня это просто хак - запомни это и используй, не заморачивайся по поводу того как он работает */
+/* прибьём футер к низу  --- запомни это и используй, не заморачивайся по поводу того как он работает */
 .wrapper{
 	position: relative;
 	min-height: 100%;
-	min-width: 970px; /* обязательно указать минимальную ширину примерно на 10 пикселей шире контейнера*/
+	min-width: 100%; /* обязательно указать минимальную ширину примерно на 10 пикселей шире контейнера*/
 	height: auto!important;
 	overflow: hidden;
 }
@@ -21,18 +22,8 @@ body{
 	height: 80px;
 	display: block;
 }
-.page-footer{
-	height: 80px;
-	margin-top: -80px;
-}
 /* прибьём футер к низу - конец*/
-
 /* общие классы */
-.container {
-	width: 960px;
-	margin: 0 auto;
-}
-
 /* clearfix */
 .container:before, .clearfix:before,
 .container:after, .clearfix:after {
@@ -44,3 +35,101 @@ body{
 }
 /* clearfix - конец */
 /* общие классы - конец */
+.wrapp_plan{
+	padding: 3% 0;
+}
+.head{
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	font-size: 3em;
+	font-weight: bold;
+	padding-top: 3%;
+}
+.left{float:left;}
+.col_3{
+	width: 32.6%;
+}
+
+.plan_1-head{
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	background: #1c5491;
+	box-shadow: 0 0 30px #fff;
+	padding: 5% 0;
+}
+.plan_1-text{
+	text-align: center;
+	color:#ffffff;
+	font-size: 1.5em;
+}
+.plan_2-head{
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	background: #1c5491;
+	box-shadow: 0 0 30px #fff;
+	padding: 10% 0;
+}
+.plan_2-text{
+	text-align: center;
+	color:#ffffff;
+	font-size: 1.8em;
+}
+.plan_3-head{
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	background: #1c5491;
+	box-shadow: 0 0 30px #fff;
+	padding: 5% 0;
+}
+.plan_body{
+	background: #e4e3e3;
+	box-shadow: 0 0 30px #fff;
+	padding: 10%;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+}
+.plan_body-text{
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 1.4em;
+}
+.plan_2{
+	margin: 0 1%;
+}
+.plan_submit{
+	box-shadow: 0 1px 0 0 #fff6af;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f3ad49), color-stop(1, #e66006));
+	background: -moz-linear-gradient(top, #f3ad49 5%, #e66006 100%);
+	background: -webkit-linear-gradient(top, #f3ad49 5%, #e66006 100%);
+	background: -o-linear-gradient(top, #f3ad49 5%, #e66006 100%);
+	background: -ms-linear-gradient(top, #f3ad49 5%, #e66006 100%);
+	background: linear-gradient(to bottom, #f3ad49 5%, #e66006 100%);
+	background-color: #f3ad49;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 5% 20%;
+	text-decoration: none;
+	margin-top: 15px;
+	text-shadow: 0px 1px 0px #ffee66;
+}
+.plan_sales{
+	width: 80px;
+	height: 80px;
+	display: block;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	background: #db3c17;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	float: right;
+	line-height: 1.2;
+	margin: -15% 0 0 0;
+}
